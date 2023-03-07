@@ -11,3 +11,4 @@ def solution(n, arr1, arr2):
             temp.join(' '*(n - len(temp)))
         answer.append(temp)
     return answer
+# Resource : https://school.programmers.co.kr/learn/courses/30/lessons/17681

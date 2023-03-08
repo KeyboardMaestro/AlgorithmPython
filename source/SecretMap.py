@@ -7,8 +7,9 @@ def solution(n, arr1, arr2):
                 temp += '#'
             else:
                 temp += ' '
+        print(temp)
         if(len(temp) < n):
-            temp.join(' '*(n - len(temp)))
+            temp = ' '*(n - len(temp)) + temp
         answer.append(temp)
     return answer
 # Resource : https://school.programmers.co.kr/learn/courses/30/lessons/17681
